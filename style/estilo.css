@@ -156,7 +156,8 @@ section h2 {
 .card:hover {
     background-color: #FF2978;
     color: white;
-    padding: 40px;
+    transform: scale(1.1);
+    transition: 0.4s;
 }
 
 .card:hover .card-text {
